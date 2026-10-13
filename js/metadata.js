@@ -1,8 +1,8 @@
 const data = {
     "url": "indiana-soccer-1976-bloomington-championship",
-    "slug": "Story Slug",
+    "slug": "1976 Indiana Men’s Soccer",
     "headline": "From club team to College Cup: 1976 men’s soccer team returns home, 50 years later ",
-    "title": "Buildout Template",
+    "title": "1976 Indiana Men’s Soccer",
     "pub_date": "October 13, 2026",
     "bylines": {
         "By": {
