@@ -1,39 +1,28 @@
 const data = {
-    "url": "your-url-here",
-    "slug": "Story slug",
-    "headline": "This is the headline",
+    "url": "indiana-soccer-1976-bloomington-championship",
+    "slug": "Story Slug",
+    "headline": "From club team to College Cup: 1976 men’s soccer team returns home, 50 years later ",
     "title": "Buildout Template",
-    "pub_date": "{insert your date in metadata.json}",
+    "pub_date": "October 13, 2026",
     "bylines": {
         "By": {
-            "name": "Cate Charron",
-            "email": "catchar@iu.edu",
-            "twitter": "catcharron",
-            "pfp": "https://pbs.twimg.com/profile_images/1499562155896619014/CUD2EvuV_400x400.jpg",
-            "bio": "Cate has worked at the IDS since 2019 as a reporter and designer."
-        },
-        "Photos by": {
-            "name": "Izzy Myszak",
-            "email": "izzymyszak@iu.edu",
-            "twitter": "izzymyszak"
+            "name": "Sean McAvoy",
+            "email": "@iu.edu",
+            "twitter": "sean_mc07",
+            "pfp": "https://s3.amazonaws.com/snwceomedia/ids/08cc1e2b-fdc7-457d-8b18-e1ce6368d5f4.original.jpg",
+            "bio": "Sean has worked at the IDS since 2025 and is a sports editor."
         },
         "Design and development by": {
-            "name": "Carson TerBush",
-            "email": "cterbush@iu.edu",
-            "twitter": "carsonology",
-            "pfp": "https://pbs.twimg.com/profile_images/1477852735278129152/vk-AiTE6_400x400.jpg",
-            "bio": "Carson has worked at the IDS since 2019 as a reporter and designer."
-        },
-        "Graphics by": {
-            "name": "Vivek Rao",
-            "email": "vivrao@iu.edu",
-            "twitter": "vivrao"
+            "name": "Lillie Donato",
+            "email": "mdonato@iu.edu",
+            "pfp": "https://s3.amazonaws.com/snwceomedia/ids/892b8a83-4320-4435-804c-6eff0e6903eb.original.jpg",
+            "bio": "Lillie has worked at the IDS since 2026 and currently serves as the managing editor of digital."
         }
     }
 }
 
 // bylines
-const byline_types = ["By", "Photos by", "Design and development by", "Graphics by"]
+const byline_types = ["By", "Design and development by"]
 let bylines_html = '';
 let bios_html = '';
 
